@@ -1,5 +1,7 @@
 # Authorized HTTPS Endpoint
 
+Based on [standart sample](https://github.com/firebase/functions-samples/tree/master/authorized-https-endpoint).
+
 This samples shows how to restrict an HTTPS Function to only the Firebase users of your app.
 
 Only users who pass a valid Firebase ID token as a Bearer token in the `Authorization` header of the HTTP request or in a `__session` cookie are authorized to use the function.
